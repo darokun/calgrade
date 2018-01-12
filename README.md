@@ -31,7 +31,7 @@ The function `calculate_grade` returns a description that includes each type of 
 In my everyday practice I then copy and paste this output (I know, awful) into the document that the student has handed in, and write any additional comments I may have. I then send this file back to the student as a feedback for their work.
  
 ## Usage
-*Example 1.* A student who got 4 grammar mistakes, 2 spelling mistakes, 0 style mistakes, and 3 content mistakes, handing in on time:
+**Example 1.** A student who got 4 grammar mistakes, 2 spelling mistakes, 0 style mistakes, and 3 content mistakes, handing in on time:
 ```r
 calculate_grade(grammar_mistakes = 4, spelling_mistakes = 2, style_mistakes = 0, content_mistakes = 3, late = FALSE)
 [1] "No"
@@ -47,7 +47,7 @@ Grading
  Comments:
 ```
 
-*Example 2.* A student who got 9 grammar mistakes, 5 spelling mistakes, 3 style mistakes, and 2 content mistakes, handing in 3 days late:
+**Example 2.** A student who got 9 grammar mistakes, 5 spelling mistakes, 3 style mistakes, and 2 content mistakes, handing in 3 days late:
 ```r
 calculate_grade(grammar_mistakes = 9, spelling_mistakes = 5, style_mistakes = 3, content_mistakes = 2, late = TRUE, by = 3)
 [1] "Yes"
@@ -63,7 +63,7 @@ Grading
  Comments:
 ```
 
-*Example 3.* A student who got 2 grammar mistakes, 0 spelling mistakes, 0 style mistakes, and 0 content mistakes, handing in 14 days late:
+**Example 3.** A student who got 2 grammar mistakes, 0 spelling mistakes, 0 style mistakes, and 0 content mistakes, handing in 14 days late:
 ```r
 calculate_grade(grammar_mistakes = 2, spelling_mistakes = 0, style_mistakes = 0, content_mistakes = 0, late = TRUE, by = 14)
 [1] "Yes"
