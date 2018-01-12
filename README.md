@@ -1,5 +1,4 @@
 # calgrade
-======================================================
 
 ## Overview
 calgrade is a package including one function called `calculate_grade`. The main objective of this function is to calculate students' grades for assignments in the Scientific English courses, as part of the [IntMOSH](http://www.en.m-osh.med.uni-muenchen.de/index.html) at [LMU Munich](http://www.en.uni-muenchen.de/index.html).
