@@ -1,13 +1,19 @@
 # calgrade
+======================================================
 
 ## Overview
-calgrade is a package including one function also called `calculate_grade`. The main objective of this function is to calculate students' grades for assignments in the Scientific English courses, as part of the IntMOSH at LMU Munich.
+calgrade is a package including one function called `calculate_grade`. The main objective of this function is to calculate students' grades for assignments in the Scientific English courses, as part of the [IntMOSH](http://www.en.m-osh.med.uni-muenchen.de/index.html) at [LMU Munich](http://www.en.uni-muenchen.de/index.html).
 
 ## Installation
 You can install the package from GitHub:
 ```r
 # install.packages("devtools")
 devtools::install_github("darokun/calgrade")
+```
+
+You can then load the package:
+```r
+library(calgrade)
 ```
 
 ## Grading
